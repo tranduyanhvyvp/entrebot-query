@@ -1,10 +1,10 @@
 import { HttpAgent } from "@dfinity/agent";
 import fetch from "node-fetch";
-import * as Cronics from "./Cronics";
+import * as superheroes from "./superheroes";
 (global as any).fetch = fetch;
 
 export const defaultAgent = new HttpAgent({
-  host: "https://ic0.app",
+  host: "http://localhost:8080",
 });
 
-export const cronics = Cronics.createActor(defaultAgent);
+export const heroes = superheroes.createActor(defaultAgent);

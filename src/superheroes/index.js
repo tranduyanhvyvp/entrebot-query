@@ -1,7 +1,7 @@
 import { Actor } from "@dfinity/agent";
-import { idlFactory } from "./Cronics.did.js";
+import { idlFactory } from "./superheroes.did.js";
 
-export const canisterId = "e3izy-jiaaa-aaaah-qacbq-cai";
+export const canisterId = "rrkah-fqaaa-aaaaa-aaaaq-cai";
 
 /**
  * @param {{agent: import("@dfinity/agent").HttpAgent}} [options]

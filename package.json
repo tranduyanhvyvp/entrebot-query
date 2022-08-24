@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@connect2ic/core": "^0.1.6",
+    "@connect2ic/react": "^0.1.4",
     "@dfinity/agent": "^0.10.0",
     "@dfinity/candid": "^0.10.0",
     "@dfinity/principal": "^0.10.0",
